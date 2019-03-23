@@ -1,0 +1,31 @@
+{
+  "name": "git-cli",
+  "version": "1.0.0",
+  "description": "Cli para github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "executeCli": "node app.js"
+  },
+  "author": "Francisco y Santiago",
+  "license": "ISC",
+  "homepage": "https://github.com/FranciscoOrantes/github-cli#README",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranciscoOrantes/github-cli.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.2",
+    "inquirer-confirm": "^2.0.2",
+    "shelljs": "^0.8.3"
+  },
+  "bin": {
+    "creator": "./app.js"
+  }
+}
