@@ -9,7 +9,7 @@
     "executeCli": "node app.js"
   },
   "author": "Francisco y Santiago",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/FranciscoOrantes/github-cli#README",
   "repository": {
     "type": "git",
